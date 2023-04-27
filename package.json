@@ -1,0 +1,17 @@
+{
+  "name": "mono-template",
+  "version": "0.0.1",
+  "description": "Template for a monorepo with Next.js",
+  "engines": {
+    "yarn": "3.5.0",
+    "node": "18.15.0"
+  },
+  "workspaces": [
+    "next-template-stack/**"
+  ],
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "packageManager": "yarn@3.5.0"
+}

@@ -1,0 +1,5 @@
+# We don't want to include the node_modules directory in commits
+/node_modules/
+
+# We don't want to include the .yarn directory in commits
+/.yarn/

@@ -1,0 +1,19 @@
+// Required if we want to use React Native Components in our Next.js app
+
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "react-native": "react-native-web"
+        }
+      }
+    ]
+  ]
+}

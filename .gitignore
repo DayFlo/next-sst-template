@@ -1,0 +1,11 @@
+# Don't commit yarn
+/.yarn/
+
+# Don't commit node_modules
+/node_modules/
+
+# And just in case...no package-lock.json either.
+package-lock.json
+
+# Skipping pnp files for now
+.pnp.*
